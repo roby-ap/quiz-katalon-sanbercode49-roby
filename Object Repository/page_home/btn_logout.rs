@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_logout</name>
+   <tag></tag>
+   <elementGuidId>0cd76b11-69d8-4461-ba56-27b215201495</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[contains(@id, 'logout2')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>logout2</value>
+      <webElementGuid>e803d2e9-db4f-465b-bdef-d1ac860ac557</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;logout2&quot;]</value>
+      <webElementGuid>803a792d-a78e-4824-aa18-e95d636acf92</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
