@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6af8f41-4721-44e1-8791-91cd7cd5d8ee</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a8fba6b4-6cdb-49fd-bb61-00a67faf0dc9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eb88d85f-a18d-43a0-bebd-5544fe9f8456</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.login_username</defaultValue>
+      <description></description>
+      <id>a8fba6b4-6cdb-49fd-bb61-00a67faf0dc9</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.login_password</defaultValue>
+      <description></description>
+      <id>eb88d85f-a18d-43a0-bebd-5544fe9f8456</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

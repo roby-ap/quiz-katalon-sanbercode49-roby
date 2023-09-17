@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>welcome_account</name>
+   <tag></tag>
+   <elementGuidId>3b3bffee-2bd8-48e8-a66c-7acac737617c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;nameofuser&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>nameofuser</value>
+      <webElementGuid>3aad4b07-c0a1-4885-82f5-5a98e4f9c26e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;nameofuser&quot;]</value>
+      <webElementGuid>c96cfb25-afd0-4c7e-a82f-2803ba7b0c6a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

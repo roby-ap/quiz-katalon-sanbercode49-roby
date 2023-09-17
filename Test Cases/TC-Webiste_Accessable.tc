@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-Webiste_Accessable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>098c94d6-11ba-41a6-b37b-b0c643e90658</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c349bfa6-d61e-4218-9e5f-ca081eae5b3c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.url</defaultValue>
+      <description></description>
+      <id>c349bfa6-d61e-4218-9e5f-ca081eae5b3c</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>
