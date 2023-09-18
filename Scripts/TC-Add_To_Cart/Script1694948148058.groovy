@@ -90,17 +90,17 @@ for (def i = 1; i <= nData; i++) {
 							
 							println(namaProduk + ' ??? ' + productData)
 							
+							WebUI.delay(2)
+							
 							WebUI.click(findTestObject('Object Repository/page_home/page_detail_product/btn_addToCart'))
+							
+//							WebUI.delay(2)
 							
 							WebUI.click(findTestObject('Object Repository/page_home/btn_home'))
 							
 						}
 						
 						iii = jumlahProduk
-						
-/*
- * TERAKHIR RUNNING SUDAH BERHASIL ADD TO CART 3 PRODUK YANG ADA DI DATA FILES :)			
- */
 					
 					}
 				
@@ -112,5 +112,41 @@ for (def i = 1; i <= nData; i++) {
 		
 	}
 }
+
+WebUI.click(findTestObject('Object Repository/page_home/btn_cart'))
+
+for(def jumlahItem = 1; jumlahItem <= nData; jumlahItem++) {
+	
+	TestObject cartProductObjects = new TestObject().addProperty('xpath', ConditionType.EQUALS, '//*[@id="tbodyid"]/tr[' + jumlahItem + ']/td[2]')
+	
+	if(WebUI.verifyElementPresent(cartProductObjects,3, FailureHandling.OPTIONAL)) {
+		
+		cartProduct = WebUI.getText(cartProductObjects)
+		
+		println("INI PRODUK DI KERANJANG - " + cartProduct)
+		
+		for(def cekItem = 1; cekItem <= nData; cekItem++) {
+			
+			var produkCart = data.getValue(1, cekItem)
+			
+			if(WebUI.verifyElementText(cartProductObjects, produkCart, FailureHandling.OPTIONAL)) {
+				
+				println("PRODUK - " + cartProduct + " - SUDAH BENAR - "+produkCart)
+				
+			}
+			
+		}
+		
+	} else {
+		
+		println("ADA PRODUK YANG GAK MASUK KERANJANG LHOOOO...")
+		
+	}
+	
+}
+						
+/*
+ * TERAKHIR RUNNING SUDAH BERHASIL ADD TO CART 3 PRODUK YANG ADA DI DATA FILES DAN CEK DATA DI HALAMAN KERANJANG/CART :)			
+ */
 
 //WebUI.closeBrowser()
