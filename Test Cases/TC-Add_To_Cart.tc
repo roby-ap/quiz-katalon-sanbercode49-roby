@@ -5,4 +5,17 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>287d9d3d-e789-4bc4-bcef-94030d99ee93</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>027ef44b-5880-47fb-a671-e23fab8b234c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.url</defaultValue>
+      <description></description>
+      <id>027ef44b-5880-47fb-a671-e23fab8b234c</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
 </TestCaseEntity>

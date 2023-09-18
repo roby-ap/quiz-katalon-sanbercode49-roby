@@ -78,39 +78,28 @@ for (def i = 1; i <= nData; i++) {
 					
 						println("TELAH DITEMUKAN PRODUK " + produk)
 						
-//						WebUI.click(productObjects)
-//						
-//						WebUI.waitForElementPresent(findTestObject('Object Repository/page_home/page_detail_product/txt_productName'), 10)
-//						
-//						namaProduk = WebUI.getAttribute(findTestObject('Object Repository/page_home/page_detail_product/txt_productName'), 'text', FailureHandling.STOP_ON_FAILURE)
-//						
-//						println(namaProduk + ' ??? ' + productData)
-//						
-//						if(namaProduk == productData) {
-//							
-//							WebUI.verifyElementClickable(findTestObject('Object Repository/page_home/page_detail_product/btn_addToCart'), 20)
-//							
-//							WebUI.back()
-//							
-//							WebUI.closeBrowser()
-//							
-//						}
-//							
-//						WebUI.waitForElementPresent(categoryObjects, 10)
+						WebUI.click(productObjects)
+						
+						WebUI.waitForElementPresent(findTestObject('Object Repository/page_home/page_detail_product/txt_productName'), 10)
+						
+						WebUI.delay(3)
+						
+						namaProduk = WebUI.getText(findTestObject('Object Repository/page_home/page_detail_product/txt_productName'))
+						
+						if(namaProduk == productData) {
+							
+							println(namaProduk + ' ??? ' + productData)
+							
+							WebUI.click(findTestObject('Object Repository/page_home/page_detail_product/btn_addToCart'))
+							
+							WebUI.click(findTestObject('Object Repository/page_home/btn_home'))
+							
+						}
 						
 						iii = jumlahProduk
 						
 /*
- * TERAKHIR RUNNING SUDAH BERHASIL MENDAPATKAN 3 PRODUK YANG ADA DI DATA FILES :)
- * 
- * 2023-09-17 20:00:44.917 DEBUG testcase.TC-Add_To_Cart                  - 1: println("TELAH DITEMUKAN PRODUK " + produk)
- * TELAH DITEMUKAN PRODUK HTC One M9
- * 
- * 2023-09-17 20:00:49.548 DEBUG testcase.TC-Add_To_Cart                  - 1: println("TELAH DITEMUKAN PRODUK " + produk)
- * TELAH DITEMUKAN PRODUK Dell i7 8gb
- * 
- * 2023-09-17 20:00:53.991 DEBUG testcase.TC-Add_To_Cart                  - 1: println("TELAH DITEMUKAN PRODUK " + produk)
- * TELAH DITEMUKAN PRODUK Apple monitor 24					
+ * TERAKHIR RUNNING SUDAH BERHASIL ADD TO CART 3 PRODUK YANG ADA DI DATA FILES :)			
  */
 					
 					}
@@ -124,4 +113,4 @@ for (def i = 1; i <= nData; i++) {
 	}
 }
 
-WebUI.closeBrowser()
+//WebUI.closeBrowser()
