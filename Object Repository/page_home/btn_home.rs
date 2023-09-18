@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_home</name>
+   <tag></tag>
+   <elementGuidId>bb4f63fa-6e45-4ff3-8e7f-aff528dfabe5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;navbarExample&quot;]/ul/li[1]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;navbarExample&quot;]/ul/li[1]/a</value>
+      <webElementGuid>95bfbdb4-1861-4ad0-a73f-3e96e1ba0c7e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -76,3 +76,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+/bin/
+/Libs/
+/.settings/
+/.classpath
+.svn/
