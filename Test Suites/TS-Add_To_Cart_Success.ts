@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS-Add_To_Cart_Success</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>fea30a53-34e1-4d5d-b07c-bfa55932eba0</testSuiteGuid>
+   <testCaseLink>
+      <guid>f5e2388d-4ee9-4076-bbf0-b787edd3890b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC-Webiste_Accessable</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c349bfa6-d61e-4218-9e5f-ca081eae5b3c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>07893461-eb1e-42a9-90b9-38975f610111</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC-Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a8fba6b4-6cdb-49fd-bb61-00a67faf0dc9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eb88d85f-a18d-43a0-bebd-5544fe9f8456</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7679a172-b506-47c9-be60-8f6e3ec38817</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC-Add_To_Cart</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>027ef44b-5880-47fb-a671-e23fab8b234c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

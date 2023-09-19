@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_purchase</name>
+   <tag></tag>
+   <elementGuidId>e7d5cf76-d28e-4ae0-a612-cd4d2b150495</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;orderModal&quot;]/div/div/div[3]/button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;orderModal&quot;]/div/div/div[3]/button[2]</value>
+      <webElementGuid>26c6fa63-118d-4df5-a8b5-6a332f43c76a</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

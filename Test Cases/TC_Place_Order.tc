@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Place_Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6b25fd42-86c6-4b44-b99d-acb51ee6a115</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b0b60a6b-1dd5-4fab-8c70-6096de770636</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6317863c-ec57-474e-a6d3-ebad6d5b4e55</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>17993b2d-4e8f-4c88-b216-9a6b9cafb694</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>18ab3603-8398-45ea-bf5a-64cbd2c4c7ba</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e63cac90-d3ca-4e00-82cf-c0c4ce56bbd8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eafd8441-8a69-4d58-acd7-170795116b3f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'This Is My Name'</defaultValue>
+      <description></description>
+      <id>b0b60a6b-1dd5-4fab-8c70-6096de770636</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'This Is Our Country'</defaultValue>
+      <description></description>
+      <id>6317863c-ec57-474e-a6d3-ebad6d5b4e55</id>
+      <masked>false</masked>
+      <name>country</name>
+   </variable>
+   <variable>
+      <defaultValue>'My City Is Beautiful'</defaultValue>
+      <description></description>
+      <id>17993b2d-4e8f-4c88-b216-9a6b9cafb694</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>'qwerty 12345678990'</defaultValue>
+      <description></description>
+      <id>18ab3603-8398-45ea-bf5a-64cbd2c4c7ba</id>
+      <masked>false</masked>
+      <name>card</name>
+   </variable>
+   <variable>
+      <defaultValue>'Life Time'</defaultValue>
+      <description></description>
+      <id>e63cac90-d3ca-4e00-82cf-c0c4ce56bbd8</id>
+      <masked>false</masked>
+      <name>month</name>
+   </variable>
+   <variable>
+      <defaultValue>'This Year So Great'</defaultValue>
+      <description></description>
+      <id>eafd8441-8a69-4d58-acd7-170795116b3f</id>
+      <masked>false</masked>
+      <name>year</name>
+   </variable>
+</TestCaseEntity>

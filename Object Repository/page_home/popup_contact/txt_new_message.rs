@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>field_username</name>
+   <name>txt_new_message</name>
    <tag></tag>
-   <elementGuidId>11e51079-2f23-4d67-b94d-b607253df56a</elementGuidId>
+   <elementGuidId>b1c0b30f-3410-4af4-81a8-603e1b7a1b7b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;loginusername&quot;]</value>
+         <value>//*[@id=&quot;exampleModalLabel&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,15 +17,15 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>loginusername</value>
-      <webElementGuid>182ba3f2-2cfa-4d5a-bc08-c316d8a78367</webElementGuid>
+      <value>exampleModalLabel</value>
+      <webElementGuid>d9535b35-6a72-49fe-af75-f9e679c4df1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;loginusername&quot;]</value>
-      <webElementGuid>b9fc5b82-adba-49fb-ad00-24219907b7e5</webElementGuid>
+      <value>//*[@id=&quot;exampleModalLabel&quot;]</value>
+      <webElementGuid>a641539d-b073-44a1-808e-e1968f7d7dfd</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

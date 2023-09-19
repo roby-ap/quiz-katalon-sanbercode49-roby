@@ -12,11 +12,11 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'robyariputra'</initValue>
-      <name>username</name>
+      <name>login_username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'qwerty'</initValue>
-      <name>password</name>
+      <name>login_password</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_contact</name>
+   <tag></tag>
+   <elementGuidId>36f027c2-246b-48fe-b537-5e88f57689f6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;navbarExample&quot;]/ul/li[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;navbarExample&quot;]/ul/li[2]/a</value>
+      <webElementGuid>82d7b673-9819-427f-86c0-276b551d1704</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

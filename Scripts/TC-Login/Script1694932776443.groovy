@@ -17,13 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC-Webiste_Accessable'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('TC-Webiste_Accessable'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('page_home/btn_login'))
 
-WebUI.verifyElementPresent(findTestObject('page_home/popup_login/txt_login'), 3)
+WebUI.verifyElementPresent(findTestObject('page_home/popup_login/txt_login'), 3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementText(findTestObject('page_home/popup_login/txt_login'), 'Log in')
+
+println (username + ' - ' + password)
 
 WebUI.setText(findTestObject('page_home/popup_login/field_username'), username)
 
@@ -36,7 +38,6 @@ WebUI.delay(3)
 log = WebUI.getAttribute(findTestObject('page_home/welcome_account'), 'text')
 
 //log = WebUI.getText(findTestObject('page_home/welcome_account'))
-
 println(log)
 
 WebUI.verifyElementText(findTestObject('page_home/welcome_account'), 'Welcome ' + username)
