@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_thankYouPurchase</name>
+   <tag></tag>
+   <elementGuidId>abca1af7-874b-4dda-985c-2fd4d1a14162</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[10]/h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[10]/h2</value>
+      <webElementGuid>05f7987c-1132-49da-aa81-b6aff75c99e8</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

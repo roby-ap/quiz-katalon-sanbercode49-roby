@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>field_username</name>
+   <name>btn_placeOrder</name>
    <tag></tag>
-   <elementGuidId>11e51079-2f23-4d67-b94d-b607253df56a</elementGuidId>
+   <elementGuidId>fad24059-63ee-4c0b-862f-1ab0c0d80df2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;loginusername&quot;]</value>
+         <value>//*[@id=&quot;page-wrapper&quot;]/div/div[2]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>loginusername</value>
-      <webElementGuid>182ba3f2-2cfa-4d5a-bc08-c316d8a78367</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;loginusername&quot;]</value>
-      <webElementGuid>b9fc5b82-adba-49fb-ad00-24219907b7e5</webElementGuid>
+      <value>//*[@id=&quot;page-wrapper&quot;]/div/div[2]/button</value>
+      <webElementGuid>f9028c20-d1f7-4f74-bb6a-a289737346a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>page-wrapper</value>
+      <webElementGuid>60246fcb-c079-4d62-b8e6-3b4d2758658a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

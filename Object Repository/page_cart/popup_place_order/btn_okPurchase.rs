@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_okPurchase</name>
+   <tag></tag>
+   <elementGuidId>283b7677-c792-4b0f-84f9-0220ee5998c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[10]/div[7]/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/div[10]/div[7]/div/button</value>
+      <webElementGuid>303d1b4d-978c-431e-a3dd-5e1d0f55c2b7</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>
