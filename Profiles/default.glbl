@@ -15,8 +15,13 @@
       <name>login_username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>-</description>
       <initValue>'qwerty'</initValue>
       <name>login_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ok'</initValue>
+      <name>test</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
