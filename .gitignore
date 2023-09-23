@@ -1,5 +1,4 @@
 #to ignore any of your .prj / project file changes
-*.prj
 
 .gradle
 
