@@ -31,7 +31,7 @@ println(data.getRowNumbers())
 
 for (def i = 1; i <= nData; i++) {
 	
-    var A = (i + 1)
+    Integer A = (i + 1)
 
     def categoryData = data.getValue(2, i)
 
@@ -39,7 +39,7 @@ for (def i = 1; i <= nData; i++) {
 
     for (def ii = 1; ii <= nData; ii++) {
         //		println('DATA KE - ' + i + ' <> kategori ke - ' + ii)
-        var urutKategori = (ii + 1)
+        Integer urutKategori = (ii + 1)
 
         TestObject categoryObjects = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[5]/div/div[1]/div/a[' + 
             urutKategori) + ']')
@@ -59,7 +59,7 @@ for (def i = 1; i <= nData; i++) {
             def jumlahProduk = 15
 
             for (def iii = 1; iii <= jumlahProduk; iii++) {
-                var urutProduk = iii 
+                Integer urutProduk = iii 
 
                 TestObject productObjects = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('/html/body/div[5]/div/div[2]/div/div[' + 
                     urutProduk) + ']/div/div/h4/a')
@@ -112,7 +112,7 @@ for (def jumlahItem = 1; jumlahItem <= nData; jumlahItem++) {
         println('INI PRODUK DI KERANJANG - ' + cartProduct)
 
         for (def cekItem = 1; cekItem <= nData; cekItem++) {
-            var produkCart = data.getValue(1, cekItem)
+            String produkCart = data.getValue(1, cekItem)
 
             if (WebUI.verifyElementText(cartProductObjects, produkCart, FailureHandling.OPTIONAL)) {
                 println((('PRODUK - ' + cartProduct) + ' - SUDAH BENAR - ') + produkCart)

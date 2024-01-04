@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>quiz-katalon-sanbercode49-roby</name>
+   <name>latihan-automation-demoblaze</name>
    <tag></tag>
    <UUID>e65f9fa6-f0b5-4965-9018-730cb2a53de6</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\roby\git\latihan-automation-demoblaze\quiz-katalon-sanbercode49-roby.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

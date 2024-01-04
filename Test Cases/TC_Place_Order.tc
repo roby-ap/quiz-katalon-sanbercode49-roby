@@ -41,6 +41,18 @@
       <value></value>
       <variableId>eafd8441-8a69-4d58-acd7-170795116b3f</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b41819ed-0947-4620-9d6c-467c578b9b1a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e5e06b82-796a-4872-8ac9-bf33559896a4</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'This Is My Name'</defaultValue>
       <description></description>
@@ -82,5 +94,19 @@
       <id>eafd8441-8a69-4d58-acd7-170795116b3f</id>
       <masked>false</masked>
       <name>year</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.current_date_status</defaultValue>
+      <description></description>
+      <id>b41819ed-0947-4620-9d6c-467c578b9b1a</id>
+      <masked>false</masked>
+      <name>date_status</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.custom_date</defaultValue>
+      <description></description>
+      <id>e5e06b82-796a-4872-8ac9-bf33559896a4</id>
+      <masked>false</masked>
+      <name>date</name>
    </variable>
 </TestCaseEntity>

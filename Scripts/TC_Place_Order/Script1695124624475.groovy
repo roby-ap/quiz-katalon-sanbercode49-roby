@@ -23,7 +23,7 @@ import com.kms.katalon.core.util.KeywordUtil
     
 //WebUI.click(findTestObject('Object Repository/page_home/btn_cart'))
 
-var totalPurchasee = WebUI.getText(findTestObject('Object Repository/page_cart/txt_totalPurchase'))
+String totalPurchasee = WebUI.getText(findTestObject('Object Repository/page_cart/txt_totalPurchase'))
 
 //var totalPurchasee = 0
 
@@ -35,7 +35,7 @@ println(totalPurchasee)
 
 if(WebUI.verifyElementPresent(findTestObject('Object Repository/page_cart/txt_totalPurchase'), 10) && totalPurchasee != '') {
 
-    var totalPurchase = WebUI.getText(findTestObject('Object Repository/page_cart/txt_totalPurchase'))
+    String totalPurchase = WebUI.getText(findTestObject('Object Repository/page_cart/txt_totalPurchase'))
     
     WebUI.click(findTestObject('Object Repository/page_cart/btn_placeOrder'))
     
@@ -69,9 +69,13 @@ if(WebUI.verifyElementPresent(findTestObject('Object Repository/page_cart/txt_to
     
     //WebUI.verifyElementText(findTestObject('Object Repository/page_cart/popup_place_order/txt_thankYouPurchase'), 'Thank you for your purchase!')
     
-    if(WebUI.getText(findTestObject('Object Repository/page_cart/popup_place_order/txt_thankYouPurchase')).contains('Thank you')) {
+    WebUI.waitForElementPresent(findTestObject('Object Repository/page_cart/popup_place_order/txt_thankYouPurchase'), 10)
+	
+	WebUI.verifyElementPresent(findTestObject('Object Repository/page_cart/popup_place_order/txt_thankYouPurchase'), 20)
+	
+	if(WebUI.getText(findTestObject('Object Repository/page_cart/popup_place_order/txt_thankYouPurchase')).contains('Thank you')) {
     
-    	var detailPurchase = WebUI.getText(findTestObject('Object Repository/page_cart/popup_place_order/txt_detailPurchase'))
+    	String detailPurchase = WebUI.getText(findTestObject('Object Repository/page_cart/popup_place_order/txt_detailPurchase'))
 		
 		println(detailPurchase)
 		
@@ -81,9 +85,19 @@ if(WebUI.verifyElementPresent(findTestObject('Object Repository/page_cart/txt_to
 				
 				if(detailPurchase.contains('Name: ' + name)) {
 					
-					def currDate = new Date().format('dd/M/yyyy')
+					if(date_status == 1) {
+						
+						def currDate = new Date().format('dd/M/yyyy')
+						
+					} 
 					
-//					def currDate = '19/8/2023'
+					if(date_status == 0) {
+						
+						println(date)
+						
+						def currDate = date
+						
+					}
 					
 					println(currDate)
 					

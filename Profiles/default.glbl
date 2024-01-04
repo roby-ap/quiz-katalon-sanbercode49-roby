@@ -24,4 +24,34 @@
       <initValue>'ok'</initValue>
       <name>test</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>0=tanggal custom; 1=tanggal sekarang by sistem</description>
+      <initValue>1</initValue>
+      <name>current_date_status</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'16/11/2023'</initValue>
+      <name>custom_date</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>1</initValue>
+      <name>start_numbering</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>URL Koneksi Database</description>
+      <initValue>'jdbc:db2://10.251.1.40:50000/sy_agt2'</initValue>
+      <name>urlDatabase</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Username Konfigurasi Database</description>
+      <initValue>'p82964'</initValue>
+      <name>usernameDB</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Password Konfigurasi Database</description>
+      <initValue>'5Bz^gI5%^I09'</initValue>
+      <name>passwordDB</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

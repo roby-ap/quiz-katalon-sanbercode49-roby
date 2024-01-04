@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 //WebUI.callTestCase(findTestCase('TC-Webiste_Accessable'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.verifyElementClickable(findTestObject('Object Repository/page_home/btn_contact'))
+
 WebUI.click(findTestObject('Object Repository/page_home/btn_contact'))
 
 if(WebUI.verifyElementPresent(findTestObject('Object Repository/page_home/popup_contact/txt_new_message'), 3, FailureHandling.STOP_ON_FAILURE)) {
@@ -30,8 +32,6 @@ if(WebUI.verifyElementPresent(findTestObject('Object Repository/page_home/popup_
     def email = username + '.' + randomNumber + '@email.xyz'
     
     println (email)
-    
-    def emailrandom = username+'+'+randomNumber+'@gmail.com'
     
     WebUI.verifyElementText(findTestObject('Object Repository/page_home/popup_contact/txt_new_message'), 'New message')
     

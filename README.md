@@ -1,2 +1,2 @@
-# quiz-katalon-sanbercode49-roby
-ini adalah quiz-katalon-sanbercode49-roby
+# latihan-automation-demoblaze
+ini adalah latihan-automation-demoblaze
